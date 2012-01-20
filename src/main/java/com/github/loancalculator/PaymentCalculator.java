@@ -1,7 +1,7 @@
 /*
  * $Id$
  *
- * Copyright (C) 2011 by Valentin Kolesnikov, javadev75@gmail.com
+ * Copyright 2012 Valentyn Kolesnikov
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
