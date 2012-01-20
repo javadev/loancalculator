@@ -1,0 +1,995 @@
+{"insurance_cf_special": [
+					"no" :
+						{"name" : "без страхования", "tariff" : 0.00},
+					"base" :
+						{"name" : "Base", "tariff" : 0.008},
+					"medium" :
+						{"name" : "Medium", "tariff" : 0.009},
+					"premium" :
+						{"name" : "Premium+", "tariff" : 0.012},
+					"econom" :
+						{"name" : "Econom", "tariff" : 0.01},
+					"standart" :
+						{"name" : "Standart", "tariff" : 0.011}
+
+],
+"insurance_cf": [
+					"no" :
+						{"name" : "без страхования", "tariff" : 0.00},
+					"base" :
+						{"name" : "Base_", "tariff" : 0.01},
+					"medium" :
+						{"name" : "Medium_", "tariff" : 0.0125},
+		                        "medium_comfy" :
+                            	                {"name" : "Medium COMFY", "tariff" : 0.014},    
+                                    	"premium" :
+						{"name" : "Premium_", "tariff" : 0.015}
+
+],
+"insurance_terms": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+
+"products": [
+"123289" :
+{"name" : "cf my tv Оптимальный 1680 на 18", "currency" : "UAH", "month_min" : 18, "month_max" : 18, "minimal_credit" : 1680.000000, "maximal_credit" : 1680.000000, "rate" : 36.000000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"123370" :
+{"name" : "cf my tv Легкий 1680 на 12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 1.000000, "maximal_credit" : 10000.000000, "rate" : 30.000000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129582" :
+{"name" : "10 міс 10%", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.500000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"123288" :
+{"name" : "cf my tv Легкий 4650 на 12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 4650.000000, "maximal_credit" : 4650.000000, "rate" : 30.000000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"123290" :
+{"name" : "cf my tv Оптимальный  4650 на 18", "currency" : "UAH", "month_min" : 18, "month_max" : 18, "minimal_credit" : 4650.000000, "maximal_credit" : 4650.000000, "rate" : 36.000000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127333" :
+{"name" : "Кредит мобильный", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 3.500000, "monthly_fee" : 3.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127291" :
+{"name" : "Легкое решение", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 2000.000000, "maximal_credit" : 15000.000000, "rate" : 0.010000, "first_fee_into" : 12.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127339" :
+{"name" : "25 под 2,5 (от цены товара)", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.330000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127297" :
+{"name" : "Стандартное решение", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 2000.000000, "maximal_credit" : 15000.000000, "rate" : 0.010000, "first_fee_into" : 20.000000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127345" :
+{"name" : "Заплати один раз за кредит", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.410000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127303" :
+{"name" : "Решение - Ультра", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 2000.000000, "maximal_credit" : 15000.000000, "rate" : 0.010000, "first_fee_into" : 25.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131845" :
+{"name" : "gp_0_6_12", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.380000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127309" :
+{"name" : "Моб за 8 платежей", "currency" : "UAH", "month_min" : 7, "month_max" : 7, "minimal_credit" : 300.000000, "maximal_credit" : 5000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 1.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127315" :
+{"name" : "Моб за 11 платежей", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 5000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 2.270000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127321" :
+{"name" : "Моб за 14 платежей", "currency" : "UAH", "month_min" : 13, "month_max" : 13, "minimal_credit" : 300.000000, "maximal_credit" : 5000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 2.310000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127327" :
+{"name" : "Три_три_кредит_получи", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129006" :
+{"name" : "multi_pos  30/9/9", "currency" : "UAH", "month_min" : 8, "month_max" : 8, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 8.290000, "monthly_fee" : 1.510000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129446" :
+{"name" : "Моб стандарт_6 мес_26%ПВ", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.600000, "monthly_fee" : 2.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129649" :
+{"name" : "ОРУС_3 платежа", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.750000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129650" :
+{"name" : "ОРУС_Акция_6 мес", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 4.500000, "monthly_fee" : 1.900000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129012" :
+{"name" : "multi_pos  20/9/9", "currency" : "UAH", "month_min" : 8, "month_max" : 8, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.380000, "monthly_fee" : 1.300000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129285" :
+{"name" : "БТ моб. рассрочка на 3", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.710000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129588" :
+{"name" : "2 міс 0%", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.750000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129651" :
+{"name" : "ОРУС_Акция_9 мес", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.500000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129018" :
+{"name" : "Весенняя акция", "currency" : "UAH", "month_min" : 6, "month_max" : 11, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 17.140000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129067" :
+{"name" : "Квант_4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.000000, "monthly_fee" : 1.230000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129502" :
+{"name" : "БТ 0% на 24 мес", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 36.990000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129068" :
+{"name" : "Квант_6 платежа", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.270000, "monthly_fee" : 2.300000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129360" :
+{"name" : "БТ 0% на 18 мес", "currency" : "UAH", "month_min" : 18, "month_max" : 18, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 30.670000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129594" :
+{"name" : "10_6_0_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129024" :
+{"name" : "Окна на 6 мес", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 8.000000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129305" :
+{"name" : "МДК_0_5_14_1", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.000000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128976" :
+{"name" : "multi_pos 40_5_0", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129243" :
+{"name" : "МДК_0_10_25_1", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128982" :
+{"name" : "multi_pos 30/5/5", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 4.290000, "monthly_fee" : 1.730000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129508" :
+{"name" : "БТ на 5 месяцев", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.600000, "monthly_fee" : 1.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129330" :
+{"name" : "Моб стандарт_12 мес_10%ПВ", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.000000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129095" :
+{"name" : "Акційний", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.110000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129096" :
+{"name" : "Грейс період_6", "currency" : "UAH", "month_min" : 6, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 1.500000, "monthly_fee" : 1.800000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129373" :
+{"name" : "Универсальный до 12 мес", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129422" :
+{"name" : "БТ на 8 месяцев", "currency" : "UAH", "month_min" : 8, "month_max" : 8, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.500000, "monthly_fee" : 1.250000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129470" :
+{"name" : "20_0_11", "currency" : "UAH", "month_min" : 11, "month_max" : 11, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 21.250000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129261" :
+{"name" : "6 міс 0%", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 13.750000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128988" :
+{"name" : "multi_pos 20/5/5", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.250000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129097" :
+{"name" : "Чистотехника-3 платежа", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129098" :
+{"name" : "Чистотехника-4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.330000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129514" :
+{"name" : "БТ моб. рассрочка на 12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 25.080000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129379" :
+{"name" : "Универсальный до 18 мес", "currency" : "UAH", "month_min" : 6, "month_max" : 18, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 18.000000, "monthly_fee" : 1.800000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129428" :
+{"name" : "БТ моб. рассрочка на 5", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129476" :
+{"name" : "Акционный кредит 24 без ПВ", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129704" :
+{"name" : "Модная рассрочка на  5 платежей", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.630000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129705" :
+{"name" : "Модная рассрочка на 4 ПВ 0%", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.800000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129706" :
+{"name" : "Модная рассрочка на  7 платежей", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 12.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129762" :
+{"name" : "ДМ Рассрочка 5 мес", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 12.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129267" :
+{"name" : "Моб стандарт_6 мес_10%ПВ", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 2.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129336" :
+{"name" : "Универсальный до 24 мес", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128994" :
+{"name" : "multi_pos30/7/7", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.290000, "monthly_fee" : 1.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129520" :
+{"name" : "Окна на 12 мес", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129255" :
+{"name" : "БТ Стандарт на 24", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.000000, "monthly_fee" : 2.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129385" :
+{"name" : "Мобильный до 15 мес", "currency" : "UAH", "month_min" : 3, "month_max" : 15, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129434" :
+{"name" : "20_9_0_0", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129482" :
+{"name" : "12 платежей", "currency" : "UAH", "month_min" : 11, "month_max" : 11, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 19.640000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129569" :
+{"name" : "Моб стандарт_10 мес_10%ПВ.", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.750000, "monthly_fee" : 2.700000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129000" :
+{"name" : "multi_pos 20/7/7", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.500000, "monthly_fee" : 1.370000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129526" :
+{"name" : "Окна на 24 мес", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129273" :
+{"name" : "Моб стандарт_9 мес_10%ПВ", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.700000, "monthly_fee" : 2.700000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"129440" :
+{"name" : "35_12_0_0", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128612" :
+{"name" : "ed_10_10_10", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128877" :
+{"name" : "5 платежей", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.250000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128934" :
+{"name" : "БТ рассрочка на 3", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128330" :
+{"name" : "Розстрочка 7 Технопарк", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.710000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128776" :
+{"name" : "Легкий универсальный до 24 мес", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.400000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128940" :
+{"name" : "multi_pos 10_7_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.330000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128331" :
+{"name" : "Розстрочка 4 Технопарк", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 8.670000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128332" :
+{"name" : "Акція 10 Технопарк", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.110000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128333" :
+{"name" : "Акція 12 Технопарк", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.110000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128343" :
+{"name" : "Розстрочка трьома платежами", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128737" :
+{"name" : "10-10-10-1,0", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128539" :
+{"name" : "10 платежей (2)", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 17.780000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128946" :
+{"name" : "multi_pos 20_7_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.380000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128743" :
+{"name" : "БТ 10_10_10", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.560000, "monthly_fee" : 1.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128952" :
+{"name" : "multi_pos 30_7_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.290000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128399" :
+{"name" : "Розстрочка п`ятьма платежами", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128593" :
+{"name" : "БТ рассрочка на 10", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 16.110000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128958" :
+{"name" : "multi_pos 40_7_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.330000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128749" :
+{"name" : "БТ рассрочка на 5", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.250000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128964" :
+{"name" : "multi_pos 20_5_0", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"128970" :
+{"name" : "multi_pos 30_5_0", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.570000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127549" :
+{"name" : "70_6_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127555" :
+{"name" : "20_9_0", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 20.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127561" :
+{"name" : "35_9_0", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 20.460000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127567" :
+{"name" : "50_9_0", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 20.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127525" :
+{"name" : "10_6_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127573" :
+{"name" : "70_9_0", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 20.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127531" :
+{"name" : "20_6_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127579" :
+{"name" : "35_12_0", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 25.540000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127537" :
+{"name" : "35_6_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127585" :
+{"name" : "50_12_0", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 24.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127543" :
+{"name" : "50_6_0", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"127591" :
+{"name" : "70_12_0", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 25.670000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134909" :
+{"name" : "diawest 10 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134913" :
+{"name" : "diawest 14 платежа", "currency" : "UAH", "month_min" : 13, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134914" :
+{"name" : "diawest 15 платежа", "currency" : "UAH", "month_min" : 14, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134915" :
+{"name" : "diawest 16 платежа", "currency" : "UAH", "month_min" : 15, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134918" :
+{"name" : "diawest 19 платежа", "currency" : "UAH", "month_min" : 18, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134919" :
+{"name" : "diawest 20 платежа", "currency" : "UAH", "month_min" : 19, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134920" :
+{"name" : "diawest 21 платежа", "currency" : "UAH", "month_min" : 20, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134921" :
+{"name" : "diawest 22 платежа", "currency" : "UAH", "month_min" : 21, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134924" :
+{"name" : "diawest 25 платежа", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134951" :
+{"name" : "Дарим_2 платежа", "currency" : "UAH", "month_min" : 8, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 1.000000, "monthly_fee" : 2.120000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134952" :
+{"name" : "Техно_Экспресс 0% ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 12.000000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134902" :
+{"name" : "diawest 3 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134903" :
+{"name" : "diawest 4 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134904" :
+{"name" : "diawest 5 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134953" :
+{"name" : "Техно_Экспресс 10% ПВ", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134954" :
+{"name" : "Мобильный_Экспресс 0% ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 20.000000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134955" :
+{"name" : "Мобильный_Экспресс 20% ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 12.000000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134905" :
+{"name" : "diawest 6 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134906" :
+{"name" : "diawest 7 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134907" :
+{"name" : "diawest 8 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134956" :
+{"name" : "new Техно_Экспресс 10% ПВ", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.000000, "monthly_fee" : 2.200000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134957" :
+{"name" : "new Техно_Экспресс 0% ПВ", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.000000, "monthly_fee" : 2.300000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134958" :
+{"name" : "new Мобильный_Экспресс 10% ПВ", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.000000, "monthly_fee" : 2.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134908" :
+{"name" : "diawest 9 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134910" :
+{"name" : "diawest 11 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134911" :
+{"name" : "diawest 12 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134959" :
+{"name" : "0-0-10 Мегамакс", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134960" :
+{"name" : "5 платежей Мегамакс", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.360000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134912" :
+{"name" : "diawest 13 платежа", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134916" :
+{"name" : "diawest 17 платежа", "currency" : "UAH", "month_min" : 16, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134917" :
+{"name" : "diawest 18 платежа", "currency" : "UAH", "month_min" : 17, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134922" :
+{"name" : "diawest 23 платежа", "currency" : "UAH", "month_min" : 22, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134923" :
+{"name" : "diawest 24 платежа", "currency" : "UAH", "month_min" : 23, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.580000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131159" :
+{"name" : "К0/20/65", "currency" : "UAH", "month_min" : 19, "month_max" : 19, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.420000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131167" :
+{"name" : "+Розстрочка на 25", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131168" :
+{"name" : "+Розстрочка на 7", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131170" :
+{"name" : "+Розстрочка на 5", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130628" :
+{"name" : "Ноутбуки 10-10-15", "currency" : "UAH", "month_min" : 14, "month_max" : 14, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.120000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130629" :
+{"name" : "Ноут 4 месяца", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.120000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131841" :
+{"name" : "gp_ШОК_10-24", "currency" : "UAH", "month_min" : 10, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.530000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131842" :
+{"name" : "ШОК_Рассрочка 6 мес", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.250000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131843" :
+{"name" : "ШОК_Акция 10-10-10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 8.890000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131172" :
+{"name" : "+Розстрочка на 3", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131331" :
+{"name" : "ed_10_10_10_new", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.600000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131332" :
+{"name" : "0% 5 платежів", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131333" :
+{"name" : "0% 10 платежів (2new)", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.560000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131844" :
+{"name" : "ШОК_Акция 18 мес", "currency" : "UAH", "month_min" : 18, "month_max" : 18, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 13.330000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133635" :
+{"name" : "ТЯ Рассрочка 0-0-6", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133636" :
+{"name" : "ТЯ Рассрочка 0-0-10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131334" :
+{"name" : "0% 12 платежів", "currency" : "UAH", "month_min" : 11, "month_max" : 11, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 17.450000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131336" :
+{"name" : "nn_pr_0-0-6", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133637" :
+{"name" : "ТЯ Рассрочка 0-0-12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133638" :
+{"name" : "ТЯ Рассрочка 0-0-24", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 23.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133639" :
+{"name" : "ТЯ grace 0-12-24", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.470000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133640" :
+{"name" : "ТЯ grace 0-18-24", "currency" : "UAH", "month_min" : 18, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.380000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130854" :
+{"name" : "_Всегда весна", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130860" :
+{"name" : "_Весна плюс", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130866" :
+{"name" : "_Мобильный плюс", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.000000, "monthly_fee" : 2.750000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130872" :
+{"name" : "_Мобильный кредит", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.000000, "monthly_fee" : 2.750000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131365" :
+{"name" : "nn_pr_12-s-tr", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.950000, "monthly_fee" : 1.100000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131371" :
+{"name" : "Евро_6", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130586" :
+{"name" : "Стандарт", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.500000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130878" :
+{"name" : "3+3", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131199" :
+{"name" : "Марго 0% на 6 мес", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131372" :
+{"name" : "Евро_11", "currency" : "UAH", "month_min" : 11, "month_max" : 11, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 16.670000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131373" :
+{"name" : "Техно_3", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131374" :
+{"name" : "Техно_6", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130594" :
+{"name" : "Моб стандарт", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131375" :
+{"name" : "Техно_8", "currency" : "UAH", "month_min" : 8, "month_max" : 8, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131376" :
+{"name" : "Техно_10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 16.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131377" :
+{"name" : "Техно_12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 17.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130602" :
+{"name" : "Простое решение", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.600000, "monthly_fee" : 2.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133963" :
+{"name" : "ЦифроТех _free_6/50", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.400000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130911" :
+{"name" : "nn_st_от 3 до 12 мес", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130912" :
+{"name" : "nn_st_5 мес", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.500000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130913" :
+{"name" : "nn_st_mob_3 мес 25ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130914" :
+{"name" : "nn_st_mob_до 12 мес 10ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 6.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133988" :
+{"name" : "Супер Стандарт", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131306" :
+{"name" : "gp_9", "currency" : "UAH", "month_min" : 9, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131152" :
+{"name" : "Розстрочка на 25 ", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131153" :
+{"name" : "Розстрочка на 15", "currency" : "UAH", "month_min" : 14, "month_max" : 14, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131154" :
+{"name" : "Розстрочка на 10", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131155" :
+{"name" : "Розстрочка на 7", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134164" :
+{"name" : "Цифровая техника 6 платежей", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131156" :
+{"name" : "Розстрочка на 5", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131157" :
+{"name" : "Розстрочка на 3", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131158" :
+{"name" : "Кредит 10-10-10", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.230000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134312" :
+{"name" : "moyo - 8 платежей_Акционный", "currency" : "UAH", "month_min" : 7, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.150000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134325" :
+{"name" : "Мобильный Нокиа 4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130218" :
+{"name" : "nn_fr_10 платежей", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.890000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130223" :
+{"name" : "nn_st_mob_до 12 мес 0ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 8.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130228" :
+{"name" : "nn_fr_mob_5 платежей", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130230" :
+{"name" : "nn_fr_mob_10 платежей", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 18.890000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130010" :
+{"name" : "Марго 10_10_10", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 1.130000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130225" :
+{"name" : "nn_pr_mob_10-20-20", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 2.500000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134334" :
+{"name" : "100 днів кредиту 0%", "currency" : "UAH", "month_min" : 4, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.610000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134105" :
+{"name" : "nn_gp_5-24", "currency" : "UAH", "month_min" : 5, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134339" :
+{"name" : "Знижка", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134344" :
+{"name" : "Знижка", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134350" :
+{"name" : "Технополис_Акционный 10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.110000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134370" :
+{"name" : "Технополис_12 пл", "currency" : "UAH", "month_min" : 11, "month_max" : 11, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134375" :
+{"name" : "Технополис_15 пл", "currency" : "UAH", "month_min" : 14, "month_max" : 14, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134018" :
+{"name" : "Диавест Стандарт", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134019" :
+{"name" : "Диавест Дарим 1 платеж", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.740000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134127" :
+{"name" : "Атлант_0_2 12 мес 10 ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131885" :
+{"name" : "МКС_2 мес_0% переплата", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.670000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131886" :
+{"name" : "МКС_4 мес_0% переплата", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.670000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134380" :
+{"name" : "Технополис_18 пл", "currency" : "UAH", "month_min" : 17, "month_max" : 17, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134385" :
+{"name" : "Технополис_4 пл МОБ", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134033" :
+{"name" : "Місяць платимо за Вас (Р18 пл)", "currency" : "UAH", "month_min" : 17, "month_max" : 17, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134128" :
+{"name" : "Дом Техники_5 мес 40ПВ", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134240" :
+{"name" : "Стерх 0-0-5", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.500000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131887" :
+{"name" : "МКС_3 платежа", "currency" : "UAH", "month_min" : 2, "month_max" : 2, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131888" :
+{"name" : "МКС_4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.200000, "monthly_fee" : 2.300000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134395" :
+{"name" : "Технополис 10 платежей", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134400" :
+{"name" : "Технополис_0-0-25", "currency" : "UAH", "month_min" : 25, "month_max" : 25, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134034" :
+{"name" : "Місяць платимо за Вас (Р25 пл)", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134131" :
+{"name" : "Ельдорадо Даруємо 3 платежі", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 1.700000, "monthly_fee" : 1.700000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134330" :
+{"name" : "Мобильный samsung 4 платежа.", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134332" :
+{"name" : "Мобильный Нокиа 6 платежей", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134038" :
+{"name" : "Акція грейс- моб.samsung", "currency" : "UAH", "month_min" : 5, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 3.190000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134040" :
+{"name" : "apple 4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.550000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130268" :
+{"name" : "Технодом_5 мес", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.110000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134044" :
+{"name" : "ЦифроТех _free_6/40", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.330000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134045" :
+{"name" : "ЦифроТех _free_4/30", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.430000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134270" :
+{"name" : "Акція грейс-ноут 10 пл.", "currency" : "UAH", "month_min" : 9, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.550000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134271" :
+{"name" : "moyo - 13 платежей", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.660000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134272" :
+{"name" : "moyo - 6 платежей_Моб", "currency" : "UAH", "month_min" : 5, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130272" :
+{"name" : "Грейс-период 0-5-15", "currency" : "UAH", "month_min" : 5, "month_max" : 15, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.740000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134046" :
+{"name" : "ЦифроТех _free_4/40", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.330000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134047" :
+{"name" : "ЦифроТех _free_4/50", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.400000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134048" :
+{"name" : "ЦифроТех _Моб_free_4/30", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 7.860000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134273" :
+{"name" : "moyo - 0-4-24_Акционный", "currency" : "UAH", "month_min" : 4, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.150000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134274" :
+{"name" : "moyo - 0-6-24_Акционный", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.150000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134275" :
+{"name" : "moyo - 6 платежей_Акционный", "currency" : "UAH", "month_min" : 5, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.150000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134345" :
+{"name" : "Технополис_Акционный 7", "currency" : "UAH", "month_min" : 7, "month_max" : 7, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134355" :
+{"name" : "Технополис_Акционный 12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.170000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134049" :
+{"name" : "ЦифроТех _Моб_free_4/40", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 7.830000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134050" :
+{"name" : "ЦифроТех _Моб_free_4/50", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 8.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134052" :
+{"name" : "Ельдорадо Обери свій платіж", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 4.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134276" :
+{"name" : "moyo - 4 платежа_Акционный", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.150000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134277" :
+{"name" : "moyo - 10 платежей_Моб_Акция", "currency" : "UAH", "month_min" : 9, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.900000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134278" :
+{"name" : "moyo - 0-8-12_Моб_Акция", "currency" : "UAH", "month_min" : 8, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.900000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134360" :
+{"name" : "Технополис_4 пл", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134365" :
+{"name" : "Технополис_6 пл", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134279" :
+{"name" : "moyo - 0-3-12_Моб_Акция", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.900000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134280" :
+{"name" : "moyo - 5 платежей_Моб_Акция", "currency" : "UAH", "month_min" : 4, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.900000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134281" :
+{"name" : "moyo - 5 платежей_Моб", "currency" : "UAH", "month_min" : 4, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130207" :
+{"name" : "nn_pr_3-3-3", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.710000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134390" :
+{"name" : "Технополис_5 пл МОБ", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134405" :
+{"name" : "grace_0-5-25", "currency" : "UAH", "month_min" : 5, "month_max" : 25, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.170000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134056" :
+{"name" : "МКС_6 платежей", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 1.690000, "monthly_fee" : 1.690000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134282" :
+{"name" : "apple_13 платежей", "currency" : "UAH", "month_min" : 12, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.440000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134287" :
+{"name" : "apple_6 платежей", "currency" : "UAH", "month_min" : 5, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.440000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130204" :
+{"name" : "nn_st_до 12 мес", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 2.300000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130210" :
+{"name" : "nn_pr_5-5-5", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 5.260000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130211" :
+{"name" : "nn_pr_10-10-10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.330000, "monthly_fee" : 1.050000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134292" :
+{"name" : "apple_10 платежей", "currency" : "UAH", "month_min" : 9, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.440000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134297" :
+{"name" : "moyo - 4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.660000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130213" :
+{"name" : "nn_pr_12-12-12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 8.070000, "monthly_fee" : 1.090000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130215" :
+{"name" : "nn_fr_4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.400000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130217" :
+{"name" : "nn_fr_7 платежей", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.740000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134302" :
+{"name" : "moyo - 6 платежей", "currency" : "UAH", "month_min" : 5, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.660000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"134307" :
+{"name" : "moyo - 8 платежей", "currency" : "UAH", "month_min" : 7, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.500000, "monthly_fee" : 1.660000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132897" :
+{"name" : "eldorado gp_0-6-24", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.650000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130249" :
+{"name" : "Даруємо 3 платежі", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.820000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130710" :
+{"name" : "Алло стандарт-2 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.500000, "monthly_fee" : 1.940000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132905" :
+{"name" : "eldorado gp_0-10-24", "currency" : "UAH", "month_min" : 10, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.990000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130269" :
+{"name" : "Технодом_7 мес", "currency" : "UAH", "month_min" : 7, "month_max" : 7, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 15.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130716" :
+{"name" : "Алло моб-2 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 2.400000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130722" :
+{"name" : "Алло моб", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130270" :
+{"name" : "Технодом_10-10-10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.110000, "monthly_fee" : 1.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130728" :
+{"name" : "Алло стандарт", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.500000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130747" :
+{"name" : "Евросеть 3+3", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 3.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132957" :
+{"name" : "Выбери платеж сам", "currency" : "UAH", "month_min" : 2, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.500000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132958" :
+{"name" : "speak_up 10-10-10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133103" :
+{"name" : "Равные части", "currency" : "UAH", "month_min" : 2, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.600000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130271" :
+{"name" : "Технодом_10 мес", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 20.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132959" :
+{"name" : "speak_up 12-12-12", "currency" : "UAH", "month_min" : 12, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 12.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132960" :
+{"name" : "speak_up 7 платежей", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132961" :
+{"name" : "speak_up 0-0-6", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132962" :
+{"name" : "Марго 0% на 15 платежей", "currency" : "UAH", "month_min" : 14, "month_max" : 14, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 18.460000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132963" :
+{"name" : "Супер 10-10-10", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 1.110000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132964" :
+{"name" : "new_Супер рассрочка 5 мес 0% ПВ", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132965" :
+{"name" : "new_Супер рассрочка 5 меc 10% ПВ", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132966" :
+{"name" : "new_Супер рассрочка 10 мес 0% ПВ", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132967" :
+{"name" : "new_Супер рассрочка 10 мес 10% ПВ", "currency" : "UAH", "month_min" : 10, "month_max" : 10, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132968" :
+{"name" : "new_Супер рассрочка 5 мес МОБ 0% ПВ", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 9.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132969" :
+{"name" : "new_Супер рассрочка 5 мес МОБ 10% ПВ", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 7000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132970" :
+{"name" : "gp_0-5-18", "currency" : "UAH", "month_min" : 5, "month_max" : 18, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.980000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132971" :
+{"name" : "gp_0-10-18", "currency" : "UAH", "month_min" : 10, "month_max" : 18, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.900000, "monthly_fee" : 0.890000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132972" :
+{"name" : "Кредит 99 в мес.", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133115" :
+{"name" : "Рассрочка на 5 мес (0%ПВ)", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 8.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132666" :
+{"name" : "gp_9-24мес 10ПВ", "currency" : "UAH", "month_min" : 9, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.050000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"132667" :
+{"name" : "25 платежів", "currency" : "UAH", "month_min" : 24, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 17.710000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133602" :
+{"name" : "Мобильный htc 8 платежей", "currency" : "UAH", "month_min" : 7, "month_max" : 7, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"133127" :
+{"name" : "Рассрочка на 5 мес (20%ПВ)", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 10.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130227" :
+{"name" : "nn_fr_mob_4 платежа", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 8.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130229" :
+{"name" : "nn_fr_mob_7 платежей", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 14.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130231" :
+{"name" : "nn_fr_mob_0-0-6", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 14.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"131851" :
+{"name" : "gp_15_6_12", "currency" : "UAH", "month_min" : 6, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 2.350000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130357" :
+{"name" : "АЦ_3 платежа", "currency" : "UAH", "month_min" : 2, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.490000, "monthly_fee" : 2.710000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130358" :
+{"name" : "АЦ_6 платежей", "currency" : "UAH", "month_min" : 5, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.750000, "monthly_fee" : 2.720000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130454" :
+{"name" : "Мода 3%", "currency" : "UAH", "month_min" : 3, "month_max" : 3, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.900000, "monthly_fee" : 1.160000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130360" :
+{"name" : "АЦ_9 платежей", "currency" : "UAH", "month_min" : 8, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 2.560000, "monthly_fee" : 2.560000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130460" :
+{"name" : "Мода 5%", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.250000, "monthly_fee" : 1.180000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130466" :
+{"name" : "Мода 7%", "currency" : "UAH", "month_min" : 7, "month_max" : 7, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 9.290000, "monthly_fee" : 1.160000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130472" :
+{"name" : "Мода 9%", "currency" : "UAH", "month_min" : 9, "month_max" : 9, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.280000, "monthly_fee" : 1.140000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130478" :
+{"name" : "Мода 5% без ПВ", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 8.400000, "monthly_fee" : 0.920000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130385" :
+{"name" : "ГП 0-6-24", "currency" : "UAH", "month_min" : 6, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 0.000000, "monthly_fee" : 1.850000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130011" :
+{"name" : "Марго 7%", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.670000, "monthly_fee" : 1.250000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130012" :
+{"name" : "Марго рассрочка", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.440000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130206" :
+{"name" : "nn_st_до 24 мес", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 6.000000, "monthly_fee" : 2.600000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130214" :
+{"name" : "nn_pr_до 24 мес", "currency" : "UAH", "month_min" : 3, "month_max" : 24, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 3.000000, "monthly_fee" : 1.800000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130216" :
+{"name" : "nn_fr_5 платежей", "currency" : "UAH", "month_min" : 4, "month_max" : 4, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 7.880000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130219" :
+{"name" : "nn_fr_12 платежей", "currency" : "UAH", "month_min" : 11, "month_max" : 11, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 17.450000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130220" :
+{"name" : "nn_fr_15 платежей", "currency" : "UAH", "month_min" : 14, "month_max" : 14, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 21.210000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130221" :
+{"name" : "nn_fr_0-0-6", "currency" : "UAH", "month_min" : 6, "month_max" : 6, "minimal_credit" : 300.000000, "maximal_credit" : 20000.000000, "rate" : 0.010000, "first_fee_into" : 11.000000, "monthly_fee" : 0.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130222" :
+{"name" : "nn_st_mob_до 12 мес 20ПВ", "currency" : "UAH", "month_min" : 3, "month_max" : 12, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 4.000000, "monthly_fee" : 2.000000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130224" :
+{"name" : "nn_pr_mob_5-10-10", "currency" : "UAH", "month_min" : 5, "month_max" : 5, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 2.220000, "monthly_fee" : 2.100000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"},
+
+"130226" :
+{"name" : "nn_pr_mob_20-20-20", "currency" : "UAH", "month_min" : 20, "month_max" : 20, "minimal_credit" : 300.000000, "maximal_credit" : 7500.000000, "rate" : 0.010000, "first_fee_into" : 18.750000, "monthly_fee" : 1.080000, "first_fee" : 0.000000, "minimal_first_charge" : 0.000000, "additional_service_fee" : 0.000000, "calc_full_credit" : "calc_full_credit_CONSUMER", "insurance" : "insurance_cf"}
+]
+}
