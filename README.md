@@ -1,9 +1,9 @@
 Loan calculator
 ===============
 
-[![Build Status](https://secure.travis-ci.org/javadev/loancalculator.svg)](http://travis-ci.org/javadev/loancalculator)
+[![Java CI with Maven](https://github.com/javadev/loancalculator/actions/workflows/maven.yml/badge.svg)](https://github.com/javadev/loancalculator/actions/workflows/maven.yml)
 [![Coverage Status](https://coveralls.io/repos/javadev/loancalculator/badge.svg)](https://coveralls.io/r/javadev/loancalculator)
 
 The java/swing application to calculate good loans
 
-[![Screen short](https://raw.github.com/javadev/loancalculator/master/loancalculator.png)](https://github.com/javadev/loancalculator)
+[![Screen short](loancalculator.png)](https://github.com/javadev/loancalculator)
